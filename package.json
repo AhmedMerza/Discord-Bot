@@ -1,0 +1,21 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.8.0",
+    "discord-cars": "^3.0.1",
+    "discord.js": "^13.6.0",
+    "mal-scraper": "^2.11.4",
+    "snekfetch": "^4.0.4",
+    "something-random-on-discord": "^3.4.4",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.0"
+  }
+}
