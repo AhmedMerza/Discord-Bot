@@ -3,7 +3,7 @@ const random = require("something-random-on-discord").Random
 module.exports = {
     name: "advice",
     aliases: ['motivation'],
-    category: "misc",
+    category: "",
     usage: "advice",
     description: "Gives you advice",
     run: async (discord, message) => {
