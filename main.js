@@ -83,4 +83,4 @@ client.on('message', message => {
 });
 
 
-client.login("ODM2NzA4OTY2OTI2MjU0MTUw.YIh78w.laUrOhGAc8xKZh3YAn2itWjWwSE")
+client.login(/*Bot token*/)
