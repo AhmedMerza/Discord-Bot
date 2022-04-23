@@ -6,9 +6,6 @@ module.exports = {
     category: "moderation",
     description: "muet",
     run: async (client, message, args) => {
-        if (!message.member.hasPermission("MANAGE_ROLES") && message.member.id != "451764425230385153") {
-            return message.channel.send("sorry you need permission to mute someone");
-        }
         if (!message.guild.me.hasPermission("MANAGE_ROLES")) {
             return message.channel.send("I do not have permission to mute");
         }
