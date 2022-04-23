@@ -2,7 +2,7 @@ const discordCars = require('discord-cars') // Of course this variable can be ch
 
 module.exports = {
     name: 'getCar',
-    descrpiton: "sends",
+    descrpiton: "sends a random car",
     execute(message, args, discord) {
         const embed = new discord.MessageEmbed()
             .setTitle("Random Car")
